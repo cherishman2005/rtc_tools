@@ -1,0 +1,19 @@
+#!/bin/bash
+
+./configure \
+    --enable-x86asm --enable-asm --enable-inline-asm --enable-optimizations --disable-debug \
+    --prefix=$PWD/export \
+    --disable-avdevice --disable-openssl \
+    --enable-encoder=rawvideo --enable-encoder=aac \
+    --disable-decoder='flashsv*' --disable-decoder=tiff \
+    --disable-hwaccels --disable-vaapi \
+    --disable-vdpau \
+    --disable-filter=gltransition --disable-iconv --disable-bzlib --disable-zlib --disable-openssl \
+    --enable-protocols --disable-protocol=async --disable-protocol=bluray \
+    --disable-protocol=ffrtmpcrypt --enable-protocol=ffrtmphttp --disable-protocol=gopher \
+    --disable-protocol='librtmp*' --disable-protocol=libssh --disable-protocol=mmsh --disable-protocol=mmst \
+    --disable-protocol='rtmp*' --enable-protocol=rtmp --enable-protocol=rtmpt --enable-protocol=rtp \
+    --disable-protocol=sctp --disable-protocol=srtp --disable-protocol=unix \
+    --enable-protocol=udp --enable-protocol=tcp --enable-protocol=concat --disable-protocol=tls_securetransport \
+    --disable-protocol=https --enable-protocol=rtsp
+
