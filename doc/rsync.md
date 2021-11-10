@@ -92,3 +92,5 @@ rsync error: error in socket IO (code 10) at clientserver.c(124) [receiver=3.0.6
 # 参考链接
 
 - [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)
+
+- [rsync常见问题及解决办法](https://blog.whsir.com/post-392.html)
