@@ -70,6 +70,25 @@ chomd 600 /etc/rsyncd.pass
 rsync -avzP --password-file=/etc/rsyncd.pass   zhangbiwu@10.20.170.90::zhangbiwu100 /data12/video > rsync.log &
 ```
 
+# 注意事项
+
+## 开启873端口
+```
+rsync: failed to connect to 10.10.10.10: Connection timed out (110)
+rsync error: error in socket IO (code 10) at clientserver.c(124) [receiver=3.0.6]
+```
+检查服务端server服务是否正常启动，检查端口防火墙，iptables打开873端口
+如果服务端是windows server则在防火墙入站规则中增加873端口
+如果服务端是Linux则先检查服务是否启动
+```
+#ps aux | grep rsync
+```
+然后开启873端口
+```
+#iptables -A INPUT -p tcp --dport 873 -j ACCEPT
+```
+开启873端口
+
 # 参考链接
 
 - [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)
