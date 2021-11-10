@@ -51,7 +51,10 @@ chomd 600 /etc/rsyncd.scr
 ```
 /etc/init.d/rsync start
 ```
-
+或者
+```
+rsync --daemon --config=/etc/rsyncd.conf
+```
 
 ### 目标主机主机配置
 （1）/etc/rsyncd.pass配置
