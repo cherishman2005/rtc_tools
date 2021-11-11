@@ -30,3 +30,10 @@ nvidia-smi topo -m
 ```
 md5sum libyy_audio_mixer_static.a
 ```
+
+## tar解压到指定路径
+
+```
+tar -C /data9/dataset -xzvf jiangmingchao.tar.gz > jiangmingchao_tar.log &
+```
+
