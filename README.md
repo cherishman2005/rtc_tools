@@ -37,3 +37,6 @@ md5sum libyy_audio_mixer_static.a
 tar -C /data9/dataset -xzvf jiangmingchao.tar.gz > jiangmingchao_tar.log &
 ```
 
+## rsync同步工具
+
+- [rsync同步工具](./doc/rsync.md)
