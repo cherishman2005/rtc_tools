@@ -1,10 +1,16 @@
-
 # bos上传下载
 
 bcecmd_yy是定制化的针对百度bos的上传下载工具。
 
 只针对bucket: yy-ai-train
 
+针对百度线上bos bucket: yy-ai-train训练数据集系统。 如有需要上传、下载 自己的新数据，可以暂时试用起来。
+
+bos路径：
+
+（1） bos:/yy-ai-train/dataset/<username>   个人路径
+
+（2） bos:/yy-ai-train/dataset/projects/ai/cv   项目路径
 
 下载指令
 ```
