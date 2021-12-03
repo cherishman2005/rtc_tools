@@ -23,6 +23,10 @@ nvidia-smi topo -m
 - [bos上传下载](https://github.com/cherishman2005/rtc_tools/wiki/bos%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD)
 
 
+## 查询cpu信息
+
+- [查询cpu信息](doc/cpu_info.md)
+
 # FAQ
 
 ## md5检测二进制文件是否相同
