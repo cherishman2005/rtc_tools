@@ -8,7 +8,7 @@
 ```
 [root@AAA ~]# cat /proc/cpuinfo| grep "physical id"| sort| uniq| wc -l
 2
-``
+```
 
 # 查看每个物理CPU中core的个数(即核数)
 ```
