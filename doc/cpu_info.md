@@ -1,4 +1,4 @@
-#查看CPU信息（型号）
+# 查看CPU信息（型号）
 ```
 [root@AAA ~]# cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
      24         Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz
