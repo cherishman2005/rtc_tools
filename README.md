@@ -26,6 +26,13 @@ nvidia-smi topo -m
 03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
 ```
 
+```
+# nvidia-smi -L
+GPU 0: Tesla T4 (UUID: GPU-53812c38-f053-fa77-e7d0-bc49d38d0e4a)
+GPU 1: Tesla T4 (UUID: GPU-05ce936f-203b-6231-b92b-37c7e9b02ece)
+```
+
+
 ## bos
 - [bos上传下载](https://github.com/cherishman2005/rtc_tools/wiki/bos%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD)
 
