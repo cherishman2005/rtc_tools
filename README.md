@@ -19,6 +19,13 @@ watch -n 1 nvidia-smi
 nvidia-smi topo -m
 ```
 
+### 查看显卡型号
+
+```
+# lspci | grep -i vga
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+```
+
 ## bos
 - [bos上传下载](https://github.com/cherishman2005/rtc_tools/wiki/bos%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD)
 
