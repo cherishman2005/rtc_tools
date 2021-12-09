@@ -32,6 +32,17 @@ GPU 0: Tesla T4 (UUID: GPU-53812c38-f053-fa77-e7d0-bc49d38d0e4a)
 GPU 1: Tesla T4 (UUID: GPU-05ce936f-203b-6231-b92b-37c7e9b02ece)
 ```
 
+## nvidia驱动卸载
+
+```
+sudo apt-get purge nvidia*
+```
+如果nvidia-smi还能查询到，表明卸载不成功。
+
+```
+sh nvidia.run --uninstall
+```
+其中nvidia.run代表是安装驱动时的.run文件，然后根据提示进行操作就行。
 
 ## bos
 - [bos上传下载](https://github.com/cherishman2005/rtc_tools/wiki/bos%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD)
