@@ -52,6 +52,10 @@ sh nvidia.run --uninstall
 
 - [查询cpu信息](doc/cpu_info.md)
 
+## linux top查询
+
+- [Linux - top命令查看服务器CPU与内存占用](https://blog.csdn.net/J080624/article/details/80526310)
+
 # FAQ
 
 ## md5检测二进制文件是否相同
