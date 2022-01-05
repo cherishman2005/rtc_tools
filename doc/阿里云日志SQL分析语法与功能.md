@@ -1,5 +1,8 @@
 # 阿里云日志SQL分析语法与功能
 
+```
+*|SELECT regexp_extract(content, '.*sid:(\d+).*', 1) as rr LIMIT 100000
+```
 
 # 参考链接
 
