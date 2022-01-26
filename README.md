@@ -44,7 +44,10 @@ sh nvidia.run --uninstall
 ```
 其中nvidia.run代表是安装驱动时的.run文件，然后根据提示进行操作就行。
 
-## bos
+## oss与bos
+
+- [oss与bos简单比较](./oss与bos简单比较.md)
+- 
 - [bos上传下载](https://github.com/cherishman2005/rtc_tools/wiki/bos%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD)
 
 
