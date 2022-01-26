@@ -1,9 +1,11 @@
 const client = require('./bce_client');
 
+// 以file形式上传
 let key = 'dataset/zhangbiwu/package.js';
 client.putObjectFromString(key, __dirname + '/package.json');
 
 
+// 以string形式上传
 key = 'dataset/zhangbiwu/hello.js';
 let data = {
     "name": "openresty",
@@ -12,15 +14,8 @@ let data = {
 client.putObjectFromString(key, JSON.stringify(data));
 
 
-let count = 0;
-setInterval(() => {
-    let key = `dataset/zhangbiwu/yy2022/test${count++}.js`;
-    if (count > 1000) count = 0;
-    
-    let data = {
-        "name": "openresty",
-        "description": "nginx+lua"
-    }
+// 以buffer形式上传
+let object = 'dataset/zhangbiwu/yylive123.txt';
+let buffer = new Buffer('hello world'); 
+client.putObject(object, buffer)
 
-    client.putObjectFromString(key, JSON.stringify(data));
-}, 2000);
