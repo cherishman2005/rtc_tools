@@ -46,7 +46,7 @@ sh nvidia.run --uninstall
 
 ## oss与bos
 
-- [oss与bos简单比较](./oss与bos简单比较.md)
+- [oss与bos简单比较](./doc/oss与bos简单比较.md)
 - 
 - [bos上传下载](https://github.com/cherishman2005/rtc_tools/wiki/bos%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD)
 
