@@ -1,7 +1,7 @@
 //import {BosClient} from '@baiducloud/sdk';
 const BosClient = require('@baiducloud/sdk').BosClient;
 const config = require('./config');
-
+const bucket = 'yy-ai-train';
 /*
 const config = {
     endpoint: <EndPoint>,         //传入Bucket所在区域域名
@@ -13,13 +13,26 @@ const config = {
 */
 const client = new BosClient(config);
 
-let bucket = 'yy-ai-train';
-let key = 'dataset/zhangbiwu/package.js';
-let data = {
-    "name": "openresty",
-    "description": "nginx+lua"
+function putObjectFromFile(object, filePath) {
+    client.putObjectFromFile(bucket, object, filePath)
+        .then(response => console.log(response))
+        .catch(error => console.error(error));
 }
 
-client.putObjectFromFile(bucket, key, __dirname + '/package.json')
-    .then(response => console.log(response))    // 成功
-    .catch(error => console.error(error));      // 失败
+function putObjectFromString(object, data) {
+    client.putObjectFromString(bucket, object, data)
+        .then(response => console.log(response))
+        .catch(error => console.error(error));
+}
+
+function putObject(object, filePath) {
+    client.putObject(bucket, object, filePath)
+        .then(response => console.log(response))
+        .catch(error => console.error(error));
+}
+
+module.exports = {
+    putObjectFromFile,
+    putObjectFromString,
+    putObject,
+}
