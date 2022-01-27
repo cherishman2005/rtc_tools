@@ -76,3 +76,12 @@ tar -C /data9/dataset -xzvf jiangmingchao.tar.gz > jiangmingchao_tar.log &
 ## rsync同步工具
 
 - [rsync同步工具](./doc/rsync.md)
+
+
+## 应用中的 stream
+
+在深入了解 http 模块内部的基本原理后，可以想想我们在应用场景中，可以利用 stream（流）做到哪些事情可以尝试自己实现一下平时接触到的一些应用，如：
+
+* http-proxy-middleware转发中间件
+* 大文件流式上传
+* 服务流媒体播放服务
