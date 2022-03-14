@@ -12,3 +12,8 @@ vi /etc/docker/daemon.json
     }
 }
 ```
+
+保存退出，然后重启 docker 服务：
+```
+systemctl restart docker
+```
