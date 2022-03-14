@@ -17,3 +17,7 @@
 ```
 systemctl restart docker
 ```
+
+# 参考链接
+
+- [nvidia-docker安装](https://cloud.tencent.com/developer/article/1541709)
