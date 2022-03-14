@@ -1,6 +1,6 @@
 # /etc/docker/daemon.json
 
-vi /etc/docker/daemon.json 
+**vi /etc/docker/daemon.json **
 ```
 {
     "data-root": "/data/docker",
