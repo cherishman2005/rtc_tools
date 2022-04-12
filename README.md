@@ -59,6 +59,10 @@ sh nvidia.run --uninstall
 
 - [Linux - top命令查看服务器CPU与内存占用](https://blog.csdn.net/J080624/article/details/80526310)
 
+## libcurl编译出libcurl.a
+
+- [https://github.com/cherishman2005/rtc_tools/issues/17](https://github.com/cherishman2005/rtc_tools/issues/17)
+
 # thunder-sdk错误日志
 
 Thunder_4536_2022-03-18_11-55-35_504.zip
