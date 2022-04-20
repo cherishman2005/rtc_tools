@@ -93,3 +93,10 @@ tar -C /data9/dataset -xzvf jiangmingchao.tar.gz > jiangmingchao_tar.log &
 * http-proxy-middleware转发中间件
 * 大文件流式上传
 * 服务流媒体播放服务
+
+## 主机除了有防火墙，还有iptables
+
+iptables清空指令：
+```
+iptables -F
+```
