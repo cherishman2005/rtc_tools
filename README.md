@@ -100,3 +100,19 @@ iptables清空指令：
 ```
 iptables -F
 ```
+
+## 查询域名对应的ip
+
+linux环境查询dns指令： nslookup
+```
+nslookup www.yy.com    
+```
+
+```
+Server:         10.254.254.254
+Address:        10.254.254.254#53
+
+Non-authoritative answer:
+Name:   www.yy.com
+Address: 14.17.109.66
+```
