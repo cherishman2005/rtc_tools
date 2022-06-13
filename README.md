@@ -116,3 +116,8 @@ Non-authoritative answer:
 Name:   www.**.com
 Address: *.*.109.66
 ```
+
+# 参考链接
+
+- [https://github.com/yingchengpa/nginx-http-flv-module](https://github.com/yingchengpa/nginx-http-flv-module)
+
