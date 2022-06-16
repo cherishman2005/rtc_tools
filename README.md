@@ -117,6 +117,11 @@ Name:   www.**.com
 Address: *.*.109.66
 ```
 
+## google文件上传
+
+google文件上传链接
+- [https://drive.google.com/drive/my-drive](https://drive.google.com/drive/my-drive)
+
 # 参考链接
 
 - [https://github.com/yingchengpa/nginx-http-flv-module](https://github.com/yingchengpa/nginx-http-flv-module)
